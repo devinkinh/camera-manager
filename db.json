@@ -1,0 +1,293 @@
+{
+  "vehicle": [
+    {
+      "id": 1,
+      "name": "car a"
+    },
+    {
+      "id": 2,
+      "name": "car b"
+    },
+    {
+      "id": 3,
+      "name": "car c"
+    },
+    {
+      "id": 4,
+      "name": "car d"
+    },
+    {
+      "id": 5,
+      "name": "car e"
+    },
+    {
+      "id": 6,
+      "name": "car f"
+    }
+  ],
+  "camera": [
+    {
+      "id": 1,
+      "deviceNo": "main"
+    },
+    {
+      "id": 2,
+      "deviceNo": "secondary"
+    },
+    {
+      "id": 3,
+      "deviceNo": "rear"
+    },
+    {
+      "id": 4,
+      "deviceNo": "passenger"
+    }
+  ],
+  "cameraAssignment": [
+    {
+      "id": 1,
+      "cameraId": 1,
+      "vehicleId": 1,
+      "dateCreated": "2020-07-26T04:22:18.497Z",
+      "deleted": true
+    },
+    {
+      "id": 2,
+      "cameraId": 3,
+      "vehicleId": 3,
+      "dateCreated": "2020-07-26T04:26:08.097Z",
+      "deleted": true
+    },
+    {
+      "id": 3,
+      "cameraId": "4",
+      "vehicleId": "4",
+      "dateCreated": "2020-07-26T04:26:11.347Z",
+      "deleted": true
+    },
+    {
+      "id": 4,
+      "cameraId": 2,
+      "vehicleId": 2,
+      "dateCreated": "2020-07-26T04:26:52.973Z",
+      "deleted": true
+    },
+    {
+      "id": 5,
+      "cameraId": 2,
+      "vehicleId": 3,
+      "dateCreated": "2020-07-26T04:27:00.392Z",
+      "deleted": true
+    },
+    {
+      "id": 6,
+      "cameraId": "3",
+      "vehicleId": "5",
+      "dateCreated": "2020-07-26T04:27:03.932Z",
+      "deleted": true
+    },
+    {
+      "id": 7,
+      "cameraId": 4,
+      "vehicleId": 4,
+      "dateCreated": "2020-07-26T04:27:51.962Z",
+      "deleted": true
+    },
+    {
+      "id": 8,
+      "cameraId": 1,
+      "vehicleId": 6,
+      "dateCreated": "2020-07-26T04:27:56.119Z",
+      "deleted": true
+    },
+    {
+      "id": 9,
+      "cameraId": 2,
+      "vehicleId": 1,
+      "dateCreated": "2020-07-26T04:28:08.393Z",
+      "deleted": true
+    },
+    {
+      "id": 10,
+      "cameraId": "2",
+      "vehicleId": "4",
+      "dateCreated": "2020-07-26T04:28:11.738Z",
+      "deleted": true
+    },
+    {
+      "id": 11,
+      "cameraId": 2,
+      "vehicleId": 2,
+      "dateCreated": "2020-07-26T04:28:24.419Z",
+      "deleted": true
+    },
+    {
+      "id": 12,
+      "cameraId": 1,
+      "vehicleId": 3,
+      "dateCreated": "2020-07-26T04:28:27.399Z",
+      "deleted": true
+    },
+    {
+      "id": 13,
+      "cameraId": 1,
+      "vehicleId": 3,
+      "dateCreated": "2020-07-26T04:28:39.946Z",
+      "deleted": true
+    },
+    {
+      "id": 14,
+      "cameraId": 4,
+      "vehicleId": 6,
+      "dateCreated": "2020-07-26T04:28:43.153Z",
+      "deleted": true
+    },
+    {
+      "id": 15,
+      "cameraId": 1,
+      "vehicleId": 3,
+      "dateCreated": "2020-07-26T04:29:09.028Z",
+      "deleted": true
+    },
+    {
+      "id": 16,
+      "cameraId": 2,
+      "vehicleId": 3,
+      "dateCreated": "2020-07-26T04:30:06.967Z",
+      "deleted": true
+    },
+    {
+      "id": 17,
+      "cameraId": 3,
+      "vehicleId": 4,
+      "dateCreated": "2020-07-26T04:30:10.295Z",
+      "deleted": true
+    },
+    {
+      "id": 18,
+      "cameraId": 1,
+      "vehicleId": 5,
+      "dateCreated": "2020-07-26T04:30:12.981Z",
+      "deleted": true
+    },
+    {
+      "id": 19,
+      "cameraId": "4",
+      "vehicleId": "3",
+      "dateCreated": "2020-07-26T04:30:30.255Z",
+      "deleted": true
+    },
+    {
+      "id": 20,
+      "cameraId": 1,
+      "vehicleId": 5,
+      "dateCreated": "2020-07-26T04:30:33.916Z",
+      "deleted": true
+    },
+    {
+      "id": 21,
+      "cameraId": 3,
+      "vehicleId": 4,
+      "dateCreated": "2020-07-26T04:30:43.935Z",
+      "deleted": true
+    },
+    {
+      "id": 22,
+      "cameraId": "4",
+      "vehicleId": "6",
+      "dateCreated": "2020-07-26T04:33:48.942Z",
+      "deleted": true
+    },
+    {
+      "id": 23,
+      "cameraId": 4,
+      "vehicleId": 5,
+      "dateCreated": "2020-07-26T04:33:51.517Z",
+      "deleted": true
+    },
+    {
+      "id": 24,
+      "cameraId": "3",
+      "vehicleId": "4",
+      "dateCreated": "2020-07-26T04:35:34.871Z",
+      "deleted": true
+    },
+    {
+      "id": 25,
+      "cameraId": 2,
+      "vehicleId": 2,
+      "dateCreated": "2020-07-26T04:35:53.980Z",
+      "deleted": true
+    },
+    {
+      "id": 26,
+      "cameraId": "2",
+      "vehicleId": "5",
+      "dateCreated": "2020-07-26T04:36:24.646Z",
+      "deleted": true
+    },
+    {
+      "id": 27,
+      "cameraId": "4",
+      "vehicleId": 2,
+      "dateCreated": "2020-07-26T04:36:27.571Z",
+      "deleted": true
+    },
+    {
+      "id": 28,
+      "cameraId": 3,
+      "vehicleId": 3,
+      "dateCreated": "2020-07-26T04:36:30.218Z",
+      "deleted": true
+    },
+    {
+      "id": 29,
+      "cameraId": 4,
+      "vehicleId": 4,
+      "dateCreated": "2020-07-26T04:36:33.256Z",
+      "deleted": true
+    },
+    {
+      "id": 30,
+      "cameraId": 1,
+      "vehicleId": 1,
+      "dateCreated": "2020-07-26T04:43:45.727Z",
+      "deleted": true
+    },
+    {
+      "id": 31,
+      "cameraId": 2,
+      "vehicleId": 2,
+      "dateCreated": "2020-07-26T04:51:29.763Z",
+      "deleted": true
+    },
+    {
+      "id": 32,
+      "cameraId": 3,
+      "vehicleId": 4,
+      "dateCreated": "2020-07-26T04:51:36.074Z",
+      "deleted": true
+    },
+    {
+      "id": 33,
+      "cameraId": "1",
+      "vehicleId": "1",
+      "dateCreated": "2020-07-26T04:52:22.383Z",
+      "deleted": false
+    },
+    {
+      "id": 34,
+      "cameraId": 4,
+      "vehicleId": 6,
+      "dateCreated": "2020-07-26T04:52:26.218Z",
+      "deleted": false
+    },
+    {
+      "id": 35,
+      "cameraId": 3,
+      "vehicleId": 5,
+      "dateCreated": "2020-07-26T15:32:09.992Z",
+      "deleted": false
+    }
+  ]
+}

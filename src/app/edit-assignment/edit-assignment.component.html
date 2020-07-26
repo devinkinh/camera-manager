@@ -1,0 +1,47 @@
+
+<mat-card>
+    <div>
+        <div>
+            <mat-toolbar>
+                Camera
+            </mat-toolbar> 
+            <mat-list>
+                <mat-list-item> Id: {{caDetails.camera.id}} </mat-list-item>
+                <mat-list-item> Device Number: {{caDetails.camera.deviceNo}} </mat-list-item>
+            </mat-list>
+        </div>
+        <div>
+            <mat-toolbar>
+                Vehicle
+            </mat-toolbar> 
+            <mat-list>
+                <mat-list-item> Id: {{caDetails.vehicle.id}}</mat-list-item>
+                <mat-list-item> Name:  {{caDetails.vehicle.name}} </mat-list-item>
+            </mat-list>
+        </div>
+    </div>
+</mat-card>
+
+<mat-card style="margin-top: 20px;">
+    <h3>
+        Edit Assignment
+    </h3>
+    <mat-form-field appearance="fill">
+        <mat-label>Camera</mat-label>
+        <mat-select [(value)]="selectedCamera">
+          <mat-option   *ngFor="let camera of unpairedCameras" value="{{+camera.id}}">{{camera.deviceNo}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      pair with 
+      <mat-form-field appearance="fill">
+        <mat-label>Vehicle</mat-label>
+        <mat-select [(value)]="selectedVehicle">
+          <mat-option  *ngFor="let vehicle of unpairedVehicles" value="{{+vehicle.id}}">{{vehicle.name}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <div>
+        <button mat-flat-button (click)="editAssignment()" color="primary" [disabled]="!selectedCamera && !selectedVehicle">
+            Save 
+        </button>
+      </div>
+</mat-card>
